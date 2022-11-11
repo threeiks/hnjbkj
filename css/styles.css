@@ -1,0 +1,88 @@
+:root {
+  /*
+  HTML emelents color
+  */
+  --brand-color: #2196f3;
+  --darker-txt-color: #212121;
+  --light-txt-color: #757575;
+  --header-white: #ffffff;
+  --light-line: #ececec;
+  --grey-bg: #2f303a;
+  --white-txt: #f5f4fa;
+  --bg-team: #f5f4fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.webstudio {
+  color: var(--brand-color);
+  font-family: "Raleway", sans-serif;
+}
+.studio {
+  color: #000000;
+}
+.spc {
+  color: var(--darker-txt-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+.contacts {
+  color: var(--light-txt-color);
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+.main {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  padding: 200px 280px 452px;
+  align-items: center;
+}
+.headers {
+  color: var(--darker-txt-color);
+}
+.text {
+  color: var(--light-txt-color);
+}
+.buttoncolor {
+  color: var(--white-txt);
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+.titles {
+  color: var(--light-txt-color);
+}
+
+.bgfirst {
+  background-color: var(--darker-txt-color);
+  width: 1600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgsec {
+  background-color: #f5f4fa;
+}
+.bgteam {
+  background-color: white;
+  width: 270px;
+  height: 368px;
+}
+.bgcontacts {
+  background-color: var(--grey-bg);
+  width: 1600px;
+  height: 252px;
+}
+.address {
+  color: var(--white-txt);
+}
+.work {
+  display: inline-block;
+}
